@@ -24,6 +24,7 @@ fs.promises
 .catch
 
 Callback architecture:
+
 fs.mkdir(dirName)
 fs.writeFile(filename, dataToWrite, callback )
 fs.readFile(filename, dataToWrite, format, callback )
@@ -32,6 +33,7 @@ fs.unlink(filename, callback)
 
 
 Sync:
+
 fs.mkdirSync(dirName)
 fs.writeFileSync(filename, dataToWrite)
 fs.readFileSync(filename, dataToWrite, format )
