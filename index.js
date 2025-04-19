@@ -1,3 +1,4 @@
+//This is a node file module
 import fs from "fs";
 
 //reading filename 
